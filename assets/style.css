@@ -1,62 +1,3 @@
-.body-container {
-    background-image: linear-gradient(to bottom right, #eff7f6, #dee2e6);
-    color: #000C18;
-  }
-  
-  #parentLi {           /* TABS */
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .cssTabs {
-    color: #000C18;
-  }
-  
-  .cssTabs:hover {
-    background-color:#eff7f6;
-    /* color: #ffffff; */
-    transition: 0.7s;
-    box-shadow: 0 0 0 4px #ffffff;
-  
-  }
-  
-  .cssTabs:focus {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #ffffff;
-  }
-  .cssTabs:active {
-    background-color: #eff7f6;
-    /* color: #ffffff; */
-  }
-  
-  #cssHeader {          /* uCook header */
-    background-color: #90dbf4;
-    color: #000C18;
-  
-  }
-  
-  .cssBody { 
-    background-color: #a9d6e5;
-  }
-  
-  #recipeInput {
-    background-color: #eff7f6;
-    color: #000C18;
-  }
-  #recipeInput:hover {
-    /* background-color:#f7d6e0; */
-    transition: 0.7s;
-  }
-  #recipeInput:focus {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #7bdff2;
-  }
-  /* #recipeInput:active {
-    background-color: #A2E2F8;
-    color: #000C18;
-  } */
   #startServerBtn {
     background-color: #eff7f6;
     color: #000C18;
@@ -76,40 +17,6 @@
   #startServerBtn:active {
     background-color: #90dbf4;
     color: #ffffff;
-  }
-  
-  ::placeholder {  /*                     NOT WORKING */
-    color: white;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: white;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: white;
-  }
-  .cssYTsearch {                   
-    background-color: #a9d6e5;
-  
-  }
-  .cssYTsearch:hover {
-    outline-color: transparent;
-    outline-style:solid;
-    background-color: #eff7f6;
-  
-    box-shadow: 0 0 0 4px #7bdff2;
-    transition: 0.7s;
-    
-  }
-  .cssYTsearch:focus {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #7bdff2;
-  }
-  .cssYTsearch:active {
-    background-color: #eff7f6;
   }
   #openAddressBtn {
     background-color: #eff7f6;
@@ -131,14 +38,3 @@
     background-color: #90dbf4;
     color: #ffffff;
   }
-  
-  
-  
-  
-  
-  /* .body-container {
-      text-align: center;
-  }
-  header{
-    align-items: center;
-  } */
