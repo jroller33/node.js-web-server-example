@@ -1,7 +1,6 @@
 # Node.js Web Server
-HTML not working.
-#
-run './assets/hello-world.js' with node (in terminal):
+
+run './assets/hello-world.js' with node.js (in terminal):
 > node hello-world.js
 
 <p>Then open any web browser and visit http://127.0.0.1:3000.<br>
